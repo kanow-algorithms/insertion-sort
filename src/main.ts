@@ -15,10 +15,3 @@ function insertionSort<T>(elementsList: T[], direction: SortDirection = SortDire
 
 const ascendingCondition: <T>(comparedElement: T, selectedElement: T) => boolean = <T>(comparedElement: T, selectedElement: T) => comparedElement > selectedElement;
 const descendingCondition: <T>(comparedElement: T, selectedElement: T) => boolean = <T>(comparedElement: T, selectedElement: T) => comparedElement < selectedElement;
-
-const exampleArray1 = [31, 41, 59, 26, 41, 58];
-const exampleArray2 = [31, 41, 59, 26, 41, 58];
-insertionSort(exampleArray1, SortDirection.ASC);
-insertionSort(exampleArray2, SortDirection.DESC);
-console.log(exampleArray1);
-console.log(exampleArray2);
