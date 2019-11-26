@@ -1,0 +1,22 @@
+{
+  "name": "insertion-sort",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kanow-algorithms/insertion-sort.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kanow-algorithms/insertion-sort/issues"
+  },
+  "homepage": "https://github.com/kanow-algorithms/insertion-sort#readme",
+  "dependencies": {
+    "typescript": "^3.7.2"
+  }
+}
