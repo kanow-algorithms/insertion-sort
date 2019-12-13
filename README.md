@@ -5,11 +5,21 @@ After you clone this repo you need to move inside ```insertion-sort``` directory
 
 ``` npm install```
 
-> To run this appliacion you need **node.js**
+> To run ```npm install``` you must have installed **node.js**
 
 ## Description
 
-This method take two parametrs:
+### Example input :
+```typescript
+const testArray: number = [2, 5, -12, 91, 5];
+insertionSort(testArray, SortDirection.DESC);
+```
+### Output of example input :
+```typescript
+[-12, 2, 5, 5, 91]
+```
+
+**insertionSort** method takes two parametrs:
 
  - **elementsList** -> it is the list which you want to sort
  - **direction** -> it is optional parameter which you can set as ```ASC``` or ```DESC``` (ASC is default option)
