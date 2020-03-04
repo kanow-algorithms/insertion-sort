@@ -1,7 +1,7 @@
 # insertion-sort
 
 ## Instalation
-After you clone this repo you need to move inside ```insertion-sort``` directory and rum command
+After you clone this repo you need to move inside ```insertion-sort``` directory and run command
 
 ``` npm install```
 
